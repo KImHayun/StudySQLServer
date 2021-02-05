@@ -14,5 +14,10 @@ from  memberTBL
 
  --DB조회
 exec sp_helpdb;
+
  --Table조회
 exec sp_tables @table_type="'table'";
+
+--열이름 조회
+exec sp_columns @table_name = 'stocks',
+                @table_owner = 'production';
