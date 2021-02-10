@@ -11,4 +11,4 @@ set @credit =
  end 
 
  print concat ('취득점수 =>' , @point);
- print concat ('학점' =>', @credit);
+ print concat ('학점 =>',  @credit);
