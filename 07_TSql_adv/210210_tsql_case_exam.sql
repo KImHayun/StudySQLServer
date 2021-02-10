@@ -1,5 +1,5 @@
 declare @point int, @credit char;
-set @point = 99; --99Á¡
+set @point = 99; --99ì 
 
 set @credit = 
  case
@@ -10,5 +10,5 @@ set @credit =
   else 'F'
  end 
 
- print concat ('ÃëµæÁ¡¼ö =>' , @point);
- print concat ('ÇĞÁ¡ =>', @credit);
+ print concat ('ì·¨ë“ì ìˆ˜ =>' , @point);
+ print concat ('í•™ì ' =>', @credit);
