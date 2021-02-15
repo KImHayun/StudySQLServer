@@ -19,4 +19,4 @@ as
 	select userID, userName, birthYear from userTBL;
 go
 
-exec usp_users; 
+exec usp_users;
