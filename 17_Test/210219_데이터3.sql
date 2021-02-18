@@ -2,7 +2,8 @@ USE [bookrentalshop]
 GO
 SET IDENTITY_INSERT [dbo].[membertbl] ON 
 GO
-INSERT [dbo].[membertbl] ([Idx], [Names], [Levels], [Addr], [Mobile], [Email], [userID], [passwords], [lastLoginDt], [loginIpAddr]) VALUES (1, N'강동훈', N'A', N'부산시 사하구', N'010-2967-1016', N'KDH@NAVER.COM', N'KDH', N'1111', NULL, NULL)
+INSERT [dbo].[membertbl] ([Idx], [Names], [Levels], [Addr], [Mobile], [Email], [userID], [passwords], [lastLoginDt], [loginIpAddr]) 
+VALUES (1, N'강동훈', N'A', N'부산시 사하구', N'010-2967-1016', N'KDH@NAVER.COM', N'KDH', N'1111', NULL, NULL)
 , (2, N'김유림', N'B', N'부산시 남구', N'010-9291-4419', N'KYR@DAUM.COM', N'KYR', N'1111', NULL, NULL)
 , (3, N'김구겸', N'B', N'부산시 북구', N'010-8956-7423', N'KGK@GMAIL.COM', N'KGK', N'1111', NULL, NULL)
 , (4, N'김주현', N'D', N'부산시 영도구', N'010-8736-2919', N'KJH@HOTMAIL.COM', N'KJH', N'1111', NULL, NULL)

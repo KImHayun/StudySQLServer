@@ -1,4 +1,4 @@
-USE [bookrentalshop]
+USE [Bookrentalshop]
 GO
 SET IDENTITY_INSERT [dbo].[rentaltbl] ON 
 GO
