@@ -86,4 +86,5 @@ select d.names
  right outer join bookstbl b
     on d.division = b.division 
  group by rollup(d.names) 
+
  /* 5¹ø */
