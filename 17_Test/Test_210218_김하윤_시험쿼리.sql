@@ -21,7 +21,6 @@ select Email, Mobile, Names, Addr, Levels, userID, passwords, lastLoginDT, login
 	   addr,
 	   upper(email) as '이메일'
   from memberTBL
- 
  order by names; /*이름순으로*/
  
  --책 정보
